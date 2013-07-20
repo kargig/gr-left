@@ -1,0 +1,128 @@
+digraph left {
+    label = "Πορεία της Αριστεράς στην Ελλάδα";
+    rankdir = LR;
+{
+	node [shape = plaintext];
+	past -> "1951" -> "1964" -> "1968" -> "1969" -> "1970" -> "1972"
+	-> "1974" -> "1976" -> "1977" -> "1985" -> "1989" -> "1990" ->
+	"1991" -> "1997" -> "1999" -> "2000" -> "2001" -> "2003" -> "2004" -> "2007" -> "2008" -> "2009" -> "2010" -> "2011" -> "2012" -> now;
+}
+
+    node [shape = circle];
+   { rank = same;  node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/kke.jpg"]; "past"; "ΚΚΕ_Χ"; }
+   { rank = same;  node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/kke.jpg"]; "1964"; "ΚΚΕ_1964"; }
+   { rank = same;  node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/kke.jpg"]; "1968"; "ΚΚΕ_1968"; }
+   { rank = same;  node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/kke.jpg"]; "1989"; "ΚΚΕ_1989"; }
+   { rank = same;  node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/kke.jpg"]; "1990"; "ΚΚΕ_1990"; }
+   { rank = same;  node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/kke.jpg"]; "2000"; "ΚΚΕ_2000"; }
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/eda.jpg"]; "1951"; "ΕΔΑ"; }
+   { rank = same;  "1964"; "ΟΜΛΕ"; }
+   { rank = same;  "1968"; "ΚΚΕ εσωτερικού"; }
+   { rank = same;  "1969"; "ΟΕΜΛ"; }
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/ekke.jpg"]; "1970"; "ΕΚΚΕ"; }
+   { rank = same;  "1972"; "ΟΣΕ"; }
+   { rank = same;  "1974"; "ΚΚΕ-ΜΛ"; "Ενωμένη Αριστερά"; }
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/ml-kke.jpg"]; "1976"; "Μ-Λ ΚΚΕ"; }
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/kke-ml.jpg"]; "1976"; "ΚΚΕ (μ-λ)"; }
+   { rank = same;  "1977"; "ΣΠΑΔ"; }
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/eek.gif"]; "1985"; "ΕΕΚ_1985";}
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/syn-generic.gif"]; "1989"; "ΣΥΝ"; }
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/nar.jpg"]; "1990"; "ΝΑΡ"; }
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/synaspismos.jpg"]; "1991"; "Συνασπισμός"; }
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/sek.gif"]; "1997"; "ΣΕΚ"; }
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/mera.gif"]; "1999"; "ΜΕ.Ρ.Α_1999"; }
+   { rank = same;  "2000"; "ΑΕΚΑ";}
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/dhkki.jpg"]; "ΔΗΚΚΙ";}
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/keda.gif"]; "ΚΕΔΑ";}
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/akep.jpg"]; "ΑΚΕΠ";}
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/akoa.jpg"]; "ΑΚΟΑ";}
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/kokkino.jpg"]; "Κόκκινο";}
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/ksekinima.jpg"]; "Ξεκίνημα ΣΔΟ";}
+   { rank = same;  "2001"; "Πρωτοβουλία Γένοβα\n2001";}
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/koe.png"]; "2003"; "ΚΟΕ"; }
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/oikologoi-enallaktikoi.jpg"]; "2004"; "Οικολόγοι\nΕναλλακτικοί";}
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/mera.gif"]; "2004"; "ΜΕ.Ρ.Α_2004"; }
+   { rank = same;  "2004"; "Αντικαπιταλιστική\nΣυμμαχία";}
+   { rank = same; node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/syriza.jpg"]; "2004"; "ΣΥΡΙΖΑ_2004"; }
+   { rank = same; node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/syriza.jpg"]; "2007"; "ΣΥΡΙΖΑ_2007"; }
+   { rank = same; node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/syriza.jpg"]; "2008"; "ΣΥΡΙΖΑ_2008"; }
+   { rank = same; node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/syriza.jpg"]; "2010"; "ΣΥΡΙΖΑ_2010"; }
+   { rank = same; node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/syriza.jpg"]; "2011"; "ΣΥΡΙΖΑ_2011"; }
+   { rank = same; node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/syriza.jpg"]; "2012"; "ΣΥΡΙΖΑ_2012"; }
+   { rank = same; node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/enantia.png"]; "2007"; "ΕΝ.ΑΝΤΙ.Α"; } 
+   { rank = same; node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/mera.gif"]; "2007"; "ΜΕ.Ρ.Α_2007"; }
+   { rank = same; node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/mera.gif"]; "2009"; "ΜΕ.Ρ.Α_2009"; }
+   { rank = same; node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/eek.gif"]; "2009"; "ΕΕΚ_2009";}
+   { rank = same; node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/okde.jpg"]; "2009"; "ΟΚΔΕ_2009"; }
+   { rank = same; node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/antarsya.jpg"]; "2009"; "ΑΝΤ.ΑΡ.ΣΥ.Α_2009"; }
+   { rank = same;  node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/dhmokratiki-aristera.jpg"]; "2010"; "ΔΗΜ.ΑΡ_2010"; }
+   { rank = same; node [shape = doublecircle, fixedsize=true, width=4, height=4, style=filled];  now ; "ΣΥΡΙΖΑ"; "ΑΝΤ.ΑΡ.ΣΥ.Α"; "ΚΚΕ"; "Πρωτοβουλία για\nμια Αριστερή\nΑντιμπεριαλιστική Συνεργασία"; "ΕΕΚ"; "ΟΑΚΚΕ"; "ΟΚΔΕ"; "ΔΗΜ.ΑΡ";}
+   "ΜΕ.Ρ.Α_2009" -> "ΟΚΔΕ_2009" [color=red];
+   "ΕΕΚ_2009" -> "ΕΕΚ" [color=green];
+   "ΟΚΔΕ_2009" -> "ΟΚΔΕ" [color=green];
+   "ΔΗΜ.ΑΡ_2010" -> "ΔΗΜ.ΑΡ" [color=green];
+   "ΑΝΤ.ΑΡ.ΣΥ.Α_2009" -> "ΑΝΤ.ΑΡ.ΣΥ.Α" [color=green];
+   "ΣΥΡΙΖΑ_2004" -> "ΣΥΡΙΖΑ_2007" -> "ΣΥΡΙΖΑ_2008" -> "ΣΥΡΙΖΑ_2010" -> "ΣΥΡΙΖΑ_2011" -> "ΣΥΡΙΖΑ_2012" -> "ΣΥΡΙΖΑ" [color=green];
+   "ΜΕ.Ρ.Α_1999" -> "ΜΕ.Ρ.Α_2004" -> "ΜΕ.Ρ.Α_2007" -> "ΜΕ.Ρ.Α_2009" [color=green];
+   "ΚΚΕ_Χ" -> "ΚΚΕ_1964" -> "ΚΚΕ_1968" -> "ΚΚΕ_1989" -> "ΚΚΕ_1990" -> "ΚΚΕ_2000" ->"ΚΚΕ" [color=green];
+	"ΚΚΕ_1964" -> "ΟΜΛΕ" [label = "1964",color=red];
+    "ΚΚΕ_1968" -> "ΚΚΕ εσωτερικού" [label = "1968",color=red];
+    "ΚΚΕ_1989" -> "ΣΥΝ" [label = "1989",color=red];
+    "ΚΚΕ_1990" -> "ΝΑΡ" [label = "1990",color=red];
+    "ΚΚΕ_2000" -> "ΚΕΔΑ" [label = "2000",color=red];
+    "Σ.K.Ε." -> "ΕΔΑ" [label = "1951",color=orange];
+    "Δ.Σ." -> "ΕΔΑ" [label = "1951",color=orange];
+    "Κ.Α.Φ." -> "ΕΔΑ" [label = "1951",color=orange];
+    "Δ.Ρ.Κ." -> "ΕΔΑ" [label = "1951",color=orange];
+    "ΚΚΕ εσωτερικού" -> "Ενωμένη Αριστερά" [ style = "dotted",color=blue ];
+    "ΕΔΑ" -> "Ενωμένη Αριστερά" [ style = "dotted",color=blue ];
+    "ΚΚΕ_1968" -> "Ενωμένη Αριστερά" [ style = "dotted",color=blue ];
+    "ΚΚΕ εσωτερικού" -> "ΚΚΕ εσωτερικού ΑνΑρ" [ style = "dotted"];
+    "ΕΔΑ" -> "ΣΠΑΔ" [ label = "1977", color=red ];
+    "ΚΚΕ εσωτερικού" -> "ΣΠΑΔ" [ label = "1977", color=red ];
+    "ΚΚΕ εσωτερικού ΑνΑρ" -> "ΑΚΟΑ" [style = "dotted"];
+	"Ενωμένη Αριστερά" -> "ΣΥΝ" [label = "1989",color=green];
+	"ΣΥΝ" -> "Συνασπισμός" [label = "1991",color=green];
+	"Συνασπισμός" -> "ΣΥΡΙΖΑ_2004" [label = "2004",color=red];
+	"Συνασπισμός" -> "ΑΕΚΑ" [label = "2000",color=red];
+    "ΕΚΚΕ" -> "ΜΕ.Ρ.Α_1999" [label = "1999",color=orange];
+    "ΕΕΚ_1985" -> "ΜΕ.Ρ.Α_1999" [label = "1999",color=orange];
+    "ΑΚΟΣ" -> "ΜΕ.Ρ.Α_1999" [label = "1999",color=orange];
+    "ΝΑΡ" -> "ΜΕ.Ρ.Α_1999" [label = "1999",color=green];
+    "Οικολόγοι\nΕναλλακτικοί" -> "ΜΕ.Ρ.Α_2004" [label = "2004",color=orange];
+    "ΟΚΔΕ_Χ" -> "ΜΕ.Ρ.Α_2007" [label = "2007",color=orange];
+    "ΟΜΛΕ" -> "Μ-Λ ΚΚΕ" [label = "1976",color=red];
+    "ΟΜΛΕ" -> "ΟΕΜΛ" [label = "1969"];
+    "ΟΜΛΕ" -> "ΚΚΕ (μ-λ)" [label="1976", color=red];
+    "ΟΕΜΛ" -> "ΚΚΕ-ΜΛ" [label = "1974"];
+    "ΚΕΔΑ" -> "ΣΥΡΙΖΑ_2004" [label = "2004",color=green];
+	"ΜΕ.Ρ.Α_2009" -> "ΑΝΤ.ΑΡ.ΣΥ.Α_2009" [label = "2009", color=green];
+	"ΑΡ.ΑΝ" -> "ΕΝ.ΑΝΤΙ.Α" [label = "2007",color=orange];
+	"ΑΡ.ΑΣ" -> "ΕΝ.ΑΝΤΙ.Α" [label = "2007",color=orange];
+	"ΟΚΔΕ-Σπάρτακος" -> "ΕΝ.ΑΝΤΙ.Α" [label = "2007",color=orange];
+	"ΕΝ.ΑΝΤΙ.Α" -> "ΑΝΤ.ΑΡ.ΣΥ.Α_2009" [label = "2009",color=green];
+    "ΚΚΕ-ΜΛ" -> "Α/συνέχεια" [style = "dotted"];
+	"Α/συνέχεια" -> "ΚΟΕ" [label = "2003", color=green];
+	"ΑΚΟΑ" -> "ΣΥΡΙΖΑ_2004" [label = "2004",color=green];
+	"ΚΟΕ" -> "ΣΥΡΙΖΑ_2007" [label = "2007", color=green];
+	"ΔΕΑ" -> "ΣΥΡΙΖΑ_2004" [label = "2004",color=orange];
+	"ΔΗΚΚΙ" -> "ΣΥΡΙΖΑ_2007" [label = "2007",color=orange];
+	"Ενεργοί Πολίτες" -> "ΣΥΡΙΖΑ_2004" [label = "2004",color=orange];
+	"Κόκκινο"-> "ΣΥΡΙΖΑ_2004" [label = "2004",color=orange];
+	"Οικοσοσιαλιστές\nΕλλάδας"-> "ΣΥΡΙΖΑ_2008" [label = "2008",color=orange];
+	"Ρόζα"-> "ΣΥΡΙΖΑ_2008" [label = "2008",color=orange];
+	"ΑΠΟ"-> "ΣΥΡΙΖΑ_2011" [label = "2011",color=orange];
+	"Ριζοσπάστες"-> "ΣΥΡΙΖΑ_2011" [label = "2011",color=orange];
+	"ΟΣΕ" -> "ΣΕΚ" [label = "1997",color=green];
+    "ΜΕ.Ρ.Α_2009" -> "ΕΕΚ_2009" [label = "2009",color=red];
+	"ΣΥΡΙΖΑ_2010" -> "ΔΗΜ.ΑΡ_2010" [label = "2010",color=red];
+	"ΚΚΕ (μ-λ)" -> "Πρωτοβουλία για\nμια Αριστερή\nΑντιμπεριαλιστική Συνεργασία" [label = "2012"];
+	"Μ-Λ ΚΚΕ" -> "Πρωτοβουλία για\nμια Αριστερή\nΑντιμπεριαλιστική Συνεργασία" [label = "2012"];
+    "ΟΜΛΕ" -> "ΟΑΚΚΕ" [ style = "dotted" ];
+	"Ξεκίνημα ΣΔΟ"-> "ΣΥΡΙΖΑ_2012" [label = "2012",color=orange];
+	"ΑΚΕΠ"-> "ΣΥΡΙΖΑ_2012" [label = "2012",color=orange];
+	"ΣΕΚ" -> "Αντικαπιταλιστική\nΣυμμαχία" [label="2004",color=orange]
+	"Πρωτοβουλία Γένοβα\n2001" -> "Αντικαπιταλιστική\nΣυμμαχία" [label="2004",color=orange]
+	"Συμμαχία Σταματήστε\nτον Πόλεμο" -> "Αντικαπιταλιστική\nΣυμμαχία" [label="2004",color=orange]
+	"Αντικαπιταλιστική\nΣυμμαχία" -> "ΕΝ.ΑΝΤΙ.Α" [label="2007",color=orange]
+}
