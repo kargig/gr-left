@@ -36,15 +36,15 @@ digraph left {
    { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2 ]; "1987"; "ΚΚΕ εσωτερικού-ΑΑ"; "ΕΑΡ"}
    { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/syn-generic.gif"]; "1989"; "ΣΥΝ"; }
    { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/nar.jpg"]; "1990"; "ΝΑΡ"; }
-   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/akoa.gif"]; "1991"; "ΑΚΟΑ";}
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/akoa.jpg"]; "1991"; "ΑΚΟΑ";}
    { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/synaspismos.jpg"]; "1991"; "Συνασπισμός"; }
    { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/sek.gif"]; "1997"; "ΣΕΚ"; }
    { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/mera.gif"]; "1999"; "ΜΕ.Ρ.Α_1999"; }
-   { rank = same;  "2000"; "ΑΕΚΑ"; "ΑΚΟΑ_2000"; "Κομμουνιστική Ανανέωση";}
+   { rank = same;  "2000"; "ΑΕΚΑ"; "Κομμουνιστική Ανανέωση";}
+   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/akoa.jpg"]; "2000"; "ΑΚΟΑ_2000"; }
    { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/dhkki.jpg"]; "ΔΗΚΚΙ";}
    { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/keda.gif"]; "ΚΕΔΑ";}
    { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/akep.jpg"]; "ΑΚΕΠ";}
-   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/akoa.jpg"]; "ΑΚΟΑ";}
    { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/kokkino.jpg"]; "Κόκκινο";}
    { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/ksekinima.jpg"]; "Ξεκίνημα ΣΔΟ";}
    { rank = same;  "2001"; "Πρωτοβουλία Γένοβα\n2001";}
