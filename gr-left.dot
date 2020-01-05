@@ -55,6 +55,7 @@ digraph left {
   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/kokkino.jpg"]; "Κόκκινο";}
   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/ksekinima.jpg"]; "Ξεκίνημα ΣΔΟ";}
   { rank = same;  "2001"; "Πρωτοβουλία Γένοβα\n2001";}
+  { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/dea.jpg"]; "2001"; "ΔΕΑ"; }
   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/koe.png"]; "2003"; "ΚΟΕ"; }
   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/oikologoi-enallaktikoi.jpg"]; "2004"; "Οικολόγοι\nΕναλλακτικοί";}
   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/mera.gif"]; "2004"; "ΜΕ.Ρ.Α_2004"; }
@@ -67,6 +68,7 @@ digraph left {
   { rank = same; node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/syriza.jpg"]; "2011"; "ΣΥΡΙΖΑ_2011"; }
   { rank = same; node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/syriza.jpg"]; "2012"; "ΣΥΡΙΖΑ_2012"; }
   { rank = same; node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/syriza.jpg"]; "2015"; "ΣΥΡΙΖΑ_2015"; }
+  { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/Dea_new_logo.png"]; "2015"; "ΔΕΑ_2015"; }
   { rank = same; node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/enantia.png"]; "2007"; "ΕΝ.ΑΝΤΙ.Α"; }
   { rank = same; node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/mera.gif"]; "2007"; "ΜΕ.Ρ.Α_2007"; }
   { rank = same; node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/mera.gif"]; "2009"; "ΜΕ.Ρ.Α_2009"; }
@@ -162,4 +164,8 @@ digraph left {
   "ΣΥΡΙΖΑ_2015" -> "ΛΑΕ_2015" [label = "2015",color=red];
   "ΕΔΕ" -> "ΕΕΚ_1985" [ style = "dotted",color=blue ];
   "ΕΕΚ_1985" -> "ΕΕΚ_2009";
+  "ΣΕΚ" -> "ΔΕΑ" [ label = "2001", color=red];
+  "ΔΕΑ" -> "ΣΥΡΙΖΑ_2012" [label = "2012", color=green ];
+  "ΣΥΡΙΖΑ_2015" -> "ΔΕΑ_2015" [label = "2015", color=red];
+  "ΔΕΑ_2015" -> "ΛΑΕ_2015" [ color=orange ];
 }
