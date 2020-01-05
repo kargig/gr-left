@@ -11,7 +11,7 @@ digraph left {
     rankdir = LR;
   {
     node [shape = plaintext];
-    past -> "1934" -> "1946" -> "1951" -> "1964" -> "1968" -> "1969"
+    past -> "1934" -> "1946" -> "1951" -> "1963" -> "1964" -> "1968" -> "1969"
     -> "1970" -> "1972"  -> "1974" -> "1976" -> "1977"
     -> "1985" -> "1986" -> "1987" -> "1989"
     -> "1990" -> "1991" -> "1997" -> "1999"
@@ -28,6 +28,7 @@ digraph left {
   { rank = same;  node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/kke.jpg"]; "1990"; "ΚΚΕ_1990"; }
   { rank = same;  node [shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/kke.jpg"]; "2000"; "ΚΚΕ_2000"; }
   { rank = same;  node [shape = ellipse, fixedsize=true, width=2, height=2, image="images/eda.jpg"]; "1951"; "ΕΔΑ"; }
+  { rank = same;  "1963"; "ΕΔΕ"; }
   { rank = same;  "1964"; "ΟΜΛΕ"; }
   { rank = same;  node [ shape = doublecircle, fixedsize=true, width=3, height=3, style=filled, image="images/KKE_esoterikou_logo.svg.png"]; "1968"; "ΚΚΕ εσωτερικού"; }
   { rank = same;  "1969"; "ΟΕΜΛ"; }
@@ -159,4 +160,6 @@ digraph left {
   "Συμμαχία Σταματήστε\nτον Πόλεμο" -> "Αντικαπιταλιστική\nΣυμμαχία" [label="2004",color=orange];
   "Αντικαπιταλιστική\nΣυμμαχία" -> "ΕΝ.ΑΝΤΙ.Α" [label="2007",color=orange];
   "ΣΥΡΙΖΑ_2015" -> "ΛΑΕ_2015" [label = "2015",color=red];
+  "ΕΔΕ" -> "ΕΕΚ_1985" [ style = "dotted",color=blue ];
+  "ΕΕΚ_1985" -> "ΕΕΚ_2009";
 }
